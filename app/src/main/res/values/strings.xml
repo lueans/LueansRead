@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">简阅</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_so_detail">SoDetailActivity</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="title_activity_news_detail">NewsDetailActivity</string>
+    <!--newsDetail共享动画-->
+    <string name="transition_photos">transition_animation_news_photos</string>
+    <string name="title_activity_news_photo">NewsPhotoActivity</string>
+    <string name="title_activity_photo_detail">PhotoDetailActivity</string>
+    <string name="title_activity_about_app">AboutAppActivity</string>
+
+    <string name="about_me">开发与设计:Lueans\nhttp://lueans.github.io</string>
+    <string name="about_app">「简阅」Android.APP\n\n每天分享几篇IT干货，不定时的分享妹纸图片，还有每天的时事新闻\n\n版权声明\n\n图片和新闻数据来自网络版权归360和网易所有，如有侵权，请告知，我们会做出下架处理\n</string>
+    <string name="about_open_source_text">开源许可</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+</resources>

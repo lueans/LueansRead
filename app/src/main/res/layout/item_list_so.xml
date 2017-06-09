@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?attr/main_item_background">
+
+    <ImageView
+        android:id="@+id/iv_solist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="280dip"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"/>
+    <TextView
+        android:ellipsize="end"
+        android:paddingLeft="16dip"
+        android:paddingTop="10dip"
+        android:id="@+id/tv_solist_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:singleLine="true"
+        android:textColor="?attr/textColorSecond"
+        android:text="靓丽美女..." />
+
+    <TextView
+
+        android:paddingLeft="10dip"
+        android:paddingTop="6dip"
+        android:paddingBottom="10dip"
+        android:id="@+id/tv_solist_time"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:singleLine="true"
+        android:text="2015-11-01"
+        android:textColor="?attr/textColorThird"
+        android:textSize="12dip" />
+</LinearLayout>
+

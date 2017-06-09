@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="colorPrimary">#262626</color>
+    <color name="colorPrimaryDark">#121212</color>
+    <color name="colorAccent">#838383</color>
+
+
+
+    <color name="red_primary">#262626</color>
+    <color name="red_primary_dark">#121212</color>
+    <color name="red_accent">#838383</color>
+
+    <color name="pink_primary">#262626</color>
+    <color name="pink_primary_dark">#121212</color>
+    <color name="pink_accent">#838383</color>
+
+    <color name="brown_primary">#262626</color>
+    <color name="brown_primary_dark">#121212</color>
+    <color name="brown_accent">#838383</color>
+
+    <color name="blue_primary">#262626</color>
+    <color name="blue_primary_dark">#121212</color>
+    <color name="blue_accent">#838383</color>
+
+    <color name="blue_grey_primary">#262626</color>
+    <color name="blue_grey_primary_dark">#121212</color>
+    <color name="blue_grey_accent">#838383</color>
+
+    <color name="yellow_primary">#262626</color>
+    <color name="yellow_primary_dark">#121212</color>
+    <color name="yellow_accent">#838383</color>
+
+    <color name="deep_purple_primary">#262626</color>
+    <color name="deep_purple_primary_dark">#121212</color>
+    <color name="deep_purple_accent">#838383</color>
+
+    <color name="green_primary">#262626</color>
+    <color name="green_primary_dark">#121212</color>
+    <color name="green_accent">#838383</color>
+
+    <color name="deep_orange_primary">#262626</color>
+    <color name="deep_orange_primary_dark">#121212</color>
+    <color name="deep_orange_accent">#838383</color>
+
+    <color name="grey_primary">#262626</color>
+    <color name="grey_primary_dark">#121212</color>
+    <color name="grey_accent">#838383</color>
+
+    <color name="cyan_primary">#262626</color>
+    <color name="cyan_primary_dark">#121212</color>
+    <color name="cyan_accent">#838383</color>
+
+    <color name="amber_primary">#262626</color>
+    <color name="amber_primary_dark">#121212</color>
+    <color name="amber_accent">#838383</color>
+
+    <color name="primary">#262626</color>
+    <color name="primary_dark">#121212</color>
+    <color name="accent">#838383</color>
+
+
+
+
+    <color name="textColorFirst">#DDFFFFFF</color>
+    <color name="textColorSecond">#89FFFFFF</color>
+    <color name="textColorThird">#42FFFFFF</color>
+
+    <color name="mainBackground">#FF424242</color>
+    <!--主页item背景色-->
+    <color name="item_background">#616161</color>
+
+
+
+
+</resources>

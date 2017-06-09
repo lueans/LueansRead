@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="100dip"
+              android:background="?attr/main_item_background"
+              android:orientation="horizontal">
+    <ImageView
+        android:scaleType="center"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/iv_news_list"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_width="90dip"
+        android:layout_height="80dip"
+        android:background="#a3a3a3"/>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dip">
+
+        <TextView
+            android:paddingBottom="10dip"
+            android:id="@+id/tv_news_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="这件事习近平最关心，今年怎么干他亲自划重点这件事习近平最关心，今年怎么干他亲自划重点这件事习近平最关心，今年怎么干他亲自划重点"
+            android:textColor="?attr/textColorFirst"
+            android:textSize="@dimen/item_title_textsize"
+            android:maxLines="2"
+            android:minLines="2"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:visibility="gone"
+            android:paddingTop="5dip"
+            android:textSize="@dimen/item_text_textsize"
+            android:textColor="@color/text_secondary"
+            android:id="@+id/tv_news_desc"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="今年全国两会，习近平总书记目前已到过4个团组。从看望政协委员并参加联组会，到上海、辽宁、四川代表团，4次讲话，他心里最牵挂的还是困难群众。“脱贫不要脱离实际随意"/>
+
+        <LinearLayout
+            android:paddingTop="8dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:textSize="10sp"
+                android:textColor="?attr/textColorSecond"
+                android:id="@+id/tv_news_source"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我是作者"/>
+            <TextView
+                android:textSize="10sp"
+                android:textColor="?attr/textColorSecond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="时间"
+                android:id="@+id/tv_news_time"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
